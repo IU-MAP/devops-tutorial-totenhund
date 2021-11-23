@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Initial step",
+      "setup": "",
+      "run": "mvn clean package",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Initial tests",
+      "setup": "",
+      "run": "mvn -q test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Cucumber final tests",
+      "setup": "",
+      "run": "mvn -q test -Dcucumber.filter.tags=\"@payment\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Initial tests",
+      "setup": "",
+      "run": "mvn -q test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Cucumber final tests",
+      "setup": "",
+      "run": "mvn -q test -Dcucumber.filter.tags=\"@payment\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
